@@ -1,6 +1,6 @@
 # veact-use
 
-[![veact](https://img.shields.io/badge/WITH-VEACT-42a97a?style=for-the-badge&labelColor=35495d)](https://github.com/veactjs/veact-use)
+[![veact](https://img.shields.io/badge/WITH-VEACT-42a97a?style=for-the-badge&labelColor=35495d)](https://github.com/veactjs/veact)
 [![GitHub stars](https://img.shields.io/github/stars/veactjs/veact-use.svg?style=for-the-badge)](https://github.com/veactjs/veact-use/stargazers)
 [![npm](https://img.shields.io/npm/v/veact-use?color=c7343a&label=npm&style=for-the-badge)](https://www.npmjs.com/package/veact-use)
 [![Test Codecov](https://img.shields.io/codecov/c/github/veactjs/veact-use?style=for-the-badge)](https://codecov.io/gh/veactjs/veact-use)
