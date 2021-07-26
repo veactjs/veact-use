@@ -2,12 +2,12 @@
 
 [![veact](https://img.shields.io/badge/WITH-VEACT-42a97a?style=for-the-badge&labelColor=35495d)](https://github.com/veactjs/veact-use)
 [![GitHub stars](https://img.shields.io/github/stars/veactjs/veact-use.svg?style=for-the-badge)](https://github.com/veactjs/veact-use/stargazers)
-[![npm](https://img.shields.io/npm/v/veact?color=c7343a&label=npm&style=for-the-badge)](https://www.npmjs.com/package/veact)
+[![npm](https://img.shields.io/npm/v/veact?color=c7343a&label=npm&style=for-the-badge)](https://www.npmjs.com/package/veact-use)
 [![Test Codecov](https://img.shields.io/codecov/c/github/veactjs/veact-use?style=for-the-badge)](https://codecov.io/gh/veactjs/veact-use)
 [![NPM Publish Status](https://img.shields.io/github/workflow/status/veactjs/veact-use/Publish?label=publish&style=for-the-badge)](https://github.com/veactjs/veact-use/actions?query=workflow:%22Publish%22)
 [![GitHub license](https://img.shields.io/github/license/veactjs/veact-use.svg?style=for-the-badge)](https://github.com/veactjs/veact-use/blob/master/LICENSE)
 
-> [Veact](https://github.com/veactjs/veact-use) Hooks.
+> [Veact](https://github.com/veactjs/veact) Hooks.
 
 ---
 
