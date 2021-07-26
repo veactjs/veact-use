@@ -36,10 +36,8 @@
   },
   "peerDependencies": {
     "react": "^16.8.0  || ^17.0.0",
-    "react-dom": "^16.8.0  || ^17.0.0"
-  },
-  "dependencies": {
-    "veact": "^0.1.2"
+    "react-dom": "^16.8.0  || ^17.0.0",
+    "veact": "^0.1"
   },
   "devDependencies": {
     "@surmon-china/libundler": "^1.0.2",
