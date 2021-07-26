@@ -25,10 +25,10 @@ yarn add veact veact-use
 
 ### APIs
 
-- [`useWindowScroll`](./src/useWindowScroll) &mdash; tracks `Window` scroll position.
-- [`useWindowSize`](./src/useWindowSize) &mdash; tracks `Window` dimensions.
-- [`useLoading`](./src/useLoading) &mdash; loading.
-- [`useLoadings`](./src/useLoadings) &mdash; loadings.
+- [`useWindowScroll`](./src/useWindowScroll.ts) &mdash; tracks `Window` scroll position.
+- [`useWindowSize`](./src/useWindowSize.ts) &mdash; tracks `Window` dimensions.
+- [`useLoading`](./src/useLoading.ts) &mdash; loading.
+- [`useLoadings`](./src/useLoadings.ts) &mdash; loadings.
 - ...
 
 ### Development
