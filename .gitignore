@@ -7,7 +7,7 @@ package-lock.json
 npm-debug.log
 
 # output
-esm/*
+es/*
 lib/*
 
 # Test Relative Folders
