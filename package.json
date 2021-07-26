@@ -1,0 +1,64 @@
+{
+  "name": "veact-use",
+  "version": "0.1.0",
+  "author": "Surmon",
+  "license": "MIT",
+  "description": "Collection of Veact Hooks",
+  "keywords": [
+    "React mutable state lib",
+    "React vue state",
+    "React composition API",
+    "Veact Hooks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veactjs/veact-use.git"
+  },
+  "files": [
+    "lib/",
+    "es/"
+  ],
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "browser": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "lint": "eslint --ext .ts src",
+    "format": "npm run lint --fix",
+    "test": "jest",
+    "build:lib": "rimraf lib && tsc",
+    "build:es": "rimraf es && tsc -m esNext --outDir es",
+    "build": "npm run build:lib && npm run build:es",
+    "rebirth": "npm run lint && npm run test && npm run build",
+    "release": ". ./scripts/release.sh"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0  || ^17.0.0",
+    "react-dom": "^16.8.0  || ^17.0.0"
+  },
+  "dependencies": {
+    "veact": "^0.1.2"
+  },
+  "devDependencies": {
+    "@surmon-china/libundler": "^1.0.2",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/react-hooks": "^7.0.1",
+    "@types/jest": "^26.0.24",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}
