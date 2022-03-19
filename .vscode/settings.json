@@ -6,6 +6,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "cSpell.words": ["Unmount", "codecov", "libundler", "referencer", "surmon", "veact"]
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

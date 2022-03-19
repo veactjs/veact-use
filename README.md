@@ -8,7 +8,7 @@
 &nbsp;
 [![Test Codecov](https://img.shields.io/codecov/c/github/veactjs/veact-use?style=for-the-badge)](https://codecov.io/gh/veactjs/veact-use)
 &nbsp;
-[![GitHub license](https://img.shields.io/github/license/veactjs/veact-use.svg?style=for-the-badge)](https://github.com/veactjs/veact-use/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/veactjs/veact-use.svg?style=for-the-badge)](/LICENSE)
 
 > [Veact](https://github.com/veactjs/veact) Hooks.
 
@@ -48,8 +48,8 @@ yarn build
 
 ### Changelog
 
-Detailed changes for each release are documented in the [release notes](https://github.com/veactjs/veact-use/blob/master/CHANGELOG.md).
+Detailed changes for each release are documented in the [release notes](/CHANGELOG.md).
 
 ### License
 
-[MIT](https://github.com/veactjs/veact-use/blob/master/LICENSE)
+[MIT](/LICENSE)
