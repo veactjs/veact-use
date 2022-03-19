@@ -10,7 +10,7 @@
 &nbsp;
 [![GitHub license](https://img.shields.io/github/license/veactjs/veact-use.svg?style=for-the-badge)](/LICENSE)
 
-[Veact](https://github.com/veactjs/veact) Hooks.
+[Veact](https://github.com/veactjs/veact) hooks.
 
 ---
 
