@@ -1,8 +1,6 @@
 {
   "name": "veact-use",
   "version": "0.1.3",
-  "author": "Surmon",
-  "license": "MIT",
   "description": "Collection of Veact Hooks",
   "keywords": [
     "React mutable state lib",
@@ -10,6 +8,8 @@
     "React composition API",
     "Veact Hooks"
   ],
+  "license": "MIT",
+  "author": "Surmon",
   "repository": {
     "type": "git",
     "url": "https://github.com/veactjs/veact-use.git"
