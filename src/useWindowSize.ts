@@ -7,6 +7,7 @@ export const useWindowSize = (initialWidth = Infinity, initialHeight = Infinity)
     width: isBrowser ? window.innerWidth : initialWidth,
     height: isBrowser ? window.innerHeight : initialHeight,
   })
+
   const handler = () => {
     state.width = window.innerWidth
     state.height = window.innerHeight

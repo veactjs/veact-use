@@ -7,10 +7,8 @@ package-lock.json
 npm-debug.log
 
 # output
-es
-es/*
-lib
-lib/*
+dist
+dist/*
 
 # Test Relative Folders
 coverage

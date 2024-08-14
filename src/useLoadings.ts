@@ -8,11 +8,8 @@ import { useReactive, useComputed, readonly } from 'veact'
  *  loadings.isLoading('fetchList');
  *  loadings.promise('fetchList', axios.get({ ... }));
  */
-
 export function useLoadings(...names: Array<string>) {
-  const loadingMap = useReactive(
-    new Map<string, boolean>(names.map((name) => [name, false]))
-  )
+  const loadingMap = useReactive(new Map<string, boolean>(names.map((name) => [name, false])))
   const loadingNames = useComputed(() => {
     return Array.from(loadingMap.keys())
   })
@@ -25,6 +22,7 @@ export function useLoadings(...names: Array<string>) {
   const setLoading = (key: string, value: boolean) => {
     loadingMap.set(key, value)
   }
+
   const start = (name: string) => setLoading(name, true)
   const stop = (name: string) => setLoading(name, false)
   const add = (name: string): void => {
@@ -32,6 +30,7 @@ export function useLoadings(...names: Array<string>) {
       setLoading(name, false)
     }
   }
+
   const handlePromise = <T>(name: string, promise: Promise<T>): Promise<T> => {
     start(name)
     promise.finally(() => stop(name))

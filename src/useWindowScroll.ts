@@ -9,16 +9,16 @@ export interface WindowScrollHookState {
 
 export const useWindowScroll = (): WindowScrollHookState => {
   const state = useReactive<WindowScrollHookState>({
-    x: isBrowser ? window.pageXOffset : 0,
-    y: isBrowser ? window.pageYOffset : 0,
+    x: isBrowser ? window.scrollX : 0,
+    y: isBrowser ? window.scrollY : 0,
   })
 
   const handler = () => {
-    const { pageXOffset, pageYOffset } = window
-    const isChanged = state.x !== pageXOffset || state.y !== pageYOffset
+    const { scrollX, scrollY } = window
+    const isChanged = state.x !== scrollX || state.y !== scrollY
     if (isChanged) {
-      state.x = pageXOffset
-      state.y = pageYOffset
+      state.x = scrollX
+      state.y = scrollY
     }
   }
 

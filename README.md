@@ -12,21 +12,20 @@
 
 [Veact](https://github.com/veactjs/veact) hooks.
 
----
-
-### Installation
+## Installation
 
 ```bash
+# using npm
 npm install veact veact-use --save
-```
 
-or
-
-```bash
+# using yarn
 yarn add veact veact-use
+
+# using pnpm
+pnpm add veact veact-use
 ```
 
-### APIs
+## APIs
 
 - [`useWindowScroll`](/src/useWindowScroll.ts) &mdash; tracks `Window` scroll position.
 - [`useWindowSize`](/src/useWindowSize.ts) &mdash; tracks `Window` dimensions.
@@ -34,22 +33,22 @@ yarn add veact veact-use
 - [`useLoadings`](/src/useLoadings.ts) &mdash; loadings.
 - ...
 
-### Development
+## Development
 
 ```bash
-yarn
+pnpm install
 
-yarn lint
+pnpm run lint
 
-yarn test
+pnpm run test
 
-yarn build
+pnpm run build
 ```
 
-### Changelog
+## Changelog
 
 Detailed changes for each release are documented in the [release notes](/CHANGELOG.md).
 
-### License
+## License
 
 [MIT](/LICENSE)

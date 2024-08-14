@@ -1,4 +1,4 @@
-import { act, renderHook } from '@testing-library/react-hooks'
+import { renderHook, act } from '@testing-library/react'
 import { useLoading } from '../src/useLoading'
 
 describe('useLoading', () => {
