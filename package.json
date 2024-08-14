@@ -49,6 +49,7 @@
     "eslint-plugin-prettier": "^5.x",
     "globals": "^15.9.0",
     "jest": "^29.x",
+    "jest-environment-jsdom": "^29.x",
     "prettier": "^3.x",
     "react": "^18.x",
     "react-dom": "^18.x",
