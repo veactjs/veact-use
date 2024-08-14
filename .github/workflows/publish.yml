@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'pnpm'
+          registry-url: https://registry.npmjs.org/
 
       - run: pnpm install
       - run: pnpm run ci
