@@ -10,12 +10,9 @@
   ],
   "author": "Surmon",
   "license": "MIT",
+  "repository": "veactjs/veact-use",
   "homepage": "https://github.com/veactjs/veact-use",
   "funding": "https://github.com/veactjs/veact-use?sponsor=1",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/veactjs/veact-use.git"
-  },
   "files": [
     "CHANGELOG.md",
     "dist/"
